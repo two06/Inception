@@ -17,7 +17,7 @@ Inception has been successful in bypassing a number of AV products. These tests 
 
 Inception is released under the MIT license. A derivative of the [SharpDump](https://github.com/GhostPack/SharpDump/)  project  is included with Inception, its licence file can be found in the SharpDump.licence file.
 
-##Requirements
+## Requirements
 
 Flask (pip install Flask)
 Colorama (pip install Colorama)
@@ -41,7 +41,7 @@ Payloads are served using a Flask app (server.py). This app either serves the en
 
 The stager is a .NET application which fetches, decodes, compiles and executes the payload. This application must be run on the victim machine. The stager is large (~10MB) when built. 
 
-###Usage
+### Usage
 
 Generate payloads using Inception.py
 
