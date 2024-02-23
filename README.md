@@ -1,5 +1,7 @@
 # Inception Framework
 
+foo
+
 Inception provides In-memory compilation and reflective loading of C# apps for AV evasion. Payloads are AES encrypted before transmission and are decrypted in memory. The payload server ensures that payloads can only be fetched a pre-determined number of times. Once decrypted, Roslyn is used to build the C# payload in memory, which is then executed using reflection.
 
 Inception has been successful in bypassing a number of AV products. These tests were conducted on a fully patched, 64-bit Windows 10 host using Metasploit Meterpreter shellcode.
